@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		332B20161D5D13EB00113C96 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 332B20151D5D13EB00113C96 /* main.c */; };
+		332B201E1D5D16A500113C96 /* Word.c in Sources */ = {isa = PBXBuildFile; fileRef = 332B201C1D5D16A500113C96 /* Word.c */; };
+		332B20211D5EB66F00113C96 /* UserInput.c in Sources */ = {isa = PBXBuildFile; fileRef = 332B201F1D5EB66F00113C96 /* UserInput.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		332B20121D5D13EB00113C96 /* Small Mad Lib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Small Mad Lib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		332B20151D5D13EB00113C96 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		332B201C1D5D16A500113C96 /* Word.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Word.c; sourceTree = "<group>"; };
+		332B201D1D5D16A500113C96 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		332B201F1D5EB66F00113C96 /* UserInput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UserInput.c; sourceTree = "<group>"; };
+		332B20201D5EB66F00113C96 /* UserInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInput.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				332B20151D5D13EB00113C96 /* main.c */,
+				332B201C1D5D16A500113C96 /* Word.c */,
+				332B201D1D5D16A500113C96 /* Word.h */,
+				332B201F1D5EB66F00113C96 /* UserInput.c */,
+				332B20201D5EB66F00113C96 /* UserInput.h */,
 			);
 			path = "Small Mad Lib";
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				332B20161D5D13EB00113C96 /* main.c in Sources */,
+				332B201E1D5D16A500113C96 /* Word.c in Sources */,
+				332B20211D5EB66F00113C96 /* UserInput.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
